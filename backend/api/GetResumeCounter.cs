@@ -25,6 +25,7 @@ namespace Company.Function
             ILogger log)
         {
 
+            // Here is where the counter gets updated
             log.LogInformation("GetResumeCounter was triggered.");
 
             updatedCounter = counter;
